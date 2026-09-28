@@ -1,9 +1,9 @@
-
 # Routing with OSPF
+Configuring OSPF routing on a virtual network using shell scripts.
 
+![Figure 1](docs/figure1.PNG)
 
----
-## Repo 🌳
+## Project 🌳
 ```
 OSPFRouting/
 ├── README.md
@@ -41,16 +41,12 @@ OSPFRouting/
     └── ssh_update_config.sh
 ```
 
-
----
-## Repo Contents
-
-
+### Usage
 The [**config/**](config) subdirectory contains the **network configuration files**.
 This is also where the [generated](scripts/generated) addresses and command lines go.
-- To generate the addresses, I run `generate-configs` while the venv is activated.
+- To generate the addresses, run `generate-configs` while the venv is activated.
 - Each file has lines for an interface's configuration to run all as a batch.
-- An edited copy is also made which can reverse the same configuration if called. (a little bit hacky but it works!)
+- An edited copy is also made which can reverse the same configuration if called.
 
 The [**docs/**](docs) subdirectory contains the text files:
 - [docs/step-9.txt](docs/step-9.txt)
@@ -63,14 +59,10 @@ The [**logs/**](logs) subdirectory contains pane captures from tests:
 - [logs/ping_1_6](logs/ping_1_6) (individual test for a pair)
 - _and so on..._
 
+_These scripts expect a 'config' file at root (mine is ignored in the repo) that should also be 'included' in '~/.ssh/config'._
 
-#### Other Stuff
-The [**scripts/**](scripts) subdirectory contains the **shell scripts** I use for development:
-    - [scripts/activate.sh](scripts/activate.sh) starts the environment and also includes a deactivate function
-    - [scripts/deactivate.sh](scripts/deactivate.sh) will deactivate the environment if for some reason the deactivate function couldn't run.
-    - **See [scripts/README.md](scripts/README.md) for more info on the virtual environment.**
+## Commands
+1. To start the environment use `source scripts/activate.sh` (also includes a deactivate function).
+2. To deactivate use `deactivate` in the command line, or `source scripts/deactivate.sh` as a fallback.
 
-These scripts expect a _'config'_ file at root (mine is ignored in the repo) that file should also be 'included' in _'~/.ssh/config'_. This just made the ssh process more convenient for me. 
-
-
----
+_See [scripts/README.md](scripts/README.md) for more info on the virtual environment._
