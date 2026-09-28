@@ -1,0 +1,25 @@
+Measuring traceroute for BOST(6) <-> ZURI(8)
+BOST_router# traceroute 29.108.0.2
+traceroute to 29.108.0.2 (29.108.0.2), 30 hops max, 46 byte packets
+ 1  newy.group29 (29.0.10.1)  0.040 ms  0.114 ms  0.061 ms
+ 2  zuri.group29 (29.108.0.2)  0.190 ms  0.258 ms  0.118 ms
+BOST_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

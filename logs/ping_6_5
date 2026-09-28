@@ -1,0 +1,25 @@
+Measuring latency for BOST(6) <-> NEWY(5)
+BOST_router# ping 29.105.0.2
+PING 29.105.0.2 (29.105.0.2) 56(84) bytes of data.
+64 bytes from 29.105.0.2: icmp_seq=1 ttl=64 time=0.080 ms
+64 bytes from 29.105.0.2: icmp_seq=2 ttl=64 time=0.077 ms
+64 bytes from 29.105.0.2: icmp_seq=3 ttl=64 time=0.079 ms
+64 bytes from 29.105.0.2: icmp_seq=4 ttl=64 time=0.081 ms
+64 bytes from 29.105.0.2: icmp_seq=5 ttl=64 time=0.101 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

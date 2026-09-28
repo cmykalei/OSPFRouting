@@ -1,0 +1,25 @@
+Measuring route from ZURI(8) <-> PARI(3)
+ZURI_router# show ip route 29.103.0.2
+Routing entry for 29.103.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:20:30 ago
+  * 29.0.6.1, via port_PARI, weight 1
+
+ZURI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

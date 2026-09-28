@@ -1,0 +1,25 @@
+Measuring traceroute for PARI(3) <-> BOST(6)
+PARI_router# traceroute 29.106.0.2
+traceroute to 29.106.0.2 (29.106.0.2), 30 hops max, 46 byte packets
+ 1  newy.group29 (29.0.8.2)  1.738 ms  lond.group29 (29.0.4.2)  0.124 ms  0.107
+ms
+ 2  bost.group29 (29.106.0.2)  21.426 ms  20.363 ms  21.866 ms
+PARI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

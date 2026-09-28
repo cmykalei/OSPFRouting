@@ -1,0 +1,25 @@
+Measuring latency for ATLA(7) <-> TRGA(4)
+ATLA_router# ping 29.104.0.2
+PING 29.104.0.2 (29.104.0.2) 56(84) bytes of data.
+64 bytes from 29.104.0.2: icmp_seq=1 ttl=63 time=0.528 ms
+64 bytes from 29.104.0.2: icmp_seq=2 ttl=63 time=0.513 ms
+64 bytes from 29.104.0.2: icmp_seq=3 ttl=63 time=0.545 ms
+64 bytes from 29.104.0.2: icmp_seq=4 ttl=63 time=0.529 ms
+64 bytes from 29.104.0.2: icmp_seq=5 ttl=63 time=0.539 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

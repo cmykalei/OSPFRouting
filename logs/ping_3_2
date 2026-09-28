@@ -1,0 +1,25 @@
+Measuring latency for PARI(3) <-> HAML(2)
+PARI_router# ping 29.102.0.2
+PING 29.102.0.2 (29.102.0.2) 56(84) bytes of data.
+64 bytes from 29.102.0.2: icmp_seq=1 ttl=64 time=0.358 ms
+64 bytes from 29.102.0.2: icmp_seq=2 ttl=64 time=0.337 ms
+64 bytes from 29.102.0.2: icmp_seq=3 ttl=64 time=0.285 ms
+64 bytes from 29.102.0.2: icmp_seq=4 ttl=64 time=0.279 ms
+64 bytes from 29.102.0.2: icmp_seq=5 ttl=64 time=0.301 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+Measuring traceroute for NEWY(5) <-> ATLA(7)
+NEWY_router# traceroute 29.107.0.2
+traceroute to 29.107.0.2 (29.107.0.2), 30 hops max, 46 byte packets
+ 1  atla.group29 (29.107.0.2)  0.311 ms  0.289 ms  0.247 ms
+NEWY_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

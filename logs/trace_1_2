@@ -1,0 +1,25 @@
+Measuring traceroute for LOND(1) <-> HAML(2)
+LOND_router# traceroute 29.102.0.2
+traceroute to 29.102.0.2 (29.102.0.2), 30 hops max, 46 byte packets
+ 1  haml.group29 (29.102.0.2)  2.208 ms  2.138 ms  2.112 ms
+LOND_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

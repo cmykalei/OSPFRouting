@@ -1,0 +1,34 @@
+Step 11
+VERSION 1
+
+Change costs for link LOND(1) <-> BOST(6)
+    LOND -> 10 (default) -> 40 (latency was high)
+        LOND_router# conf t
+        LOND_router(config)# interface port_BOST
+        LOND_router(config-if)# ip ospf cost 40
+    BOST -> 10 (default) -> 40
+        BOST_router# conf t
+        BOST_router(config)# interface port_LOND
+        BOST_router(config-if)# ip ospf cost 40
+
+Change costs for link NEWY(3) <-> PARI(3)
+    NEWY -> 10 (default) -> 30 (latency was moderate)
+        NEWY_router# conf t
+        NEWY_router(config)# interface port_PARI
+        NEWY_router(config-if)# ip ospf cost 30
+    PARI -> 10 (default) -> 30
+        PARI_router# conf t
+        PARI_router(config)# interface port_NEWY
+        PARI_router(config-if)# ip ospf cost 30
+
+Change costs for link LOND(1) <-> HAML(2)
+    LOND -> 10 (default) -> 30 (latency was moderate)
+        LOND_router# conf t
+        LOND_router(config)# interface port_HAML
+        LOND_router(config-if)# ip ospf cost 30
+    HAML -> 10 (default) -> 30
+        PARI_router# conf t
+        PARI_router(config)# interface port_LOND
+        PARI_router(config-if)# ip ospf cost 30
+
+

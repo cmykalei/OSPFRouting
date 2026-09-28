@@ -1,0 +1,210 @@
+exit
+Connection to 158.29.16.1 closed.
+[?2004h[38;5;2mroot@g29-proxy [38;5;75m~[m> [H[J[38;5;2mroot@g29-proxy [38;5;75m~[m> ./goto.sh ZURI router
+[?2004l
+Hello, this is FRRouting (version 8.2.2).
+Copyright 1996-2005 Kunihiro Ishiguro, et al.
+
+ZURI_router# show ip ospf database network
+
+       OSPF Router with ID (29.158.0.1)
+
+
+                Net Link States (Area 0.0.0.0)
+
+  LS age: 826
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x6  
+  LS Type: network-LSA
+  Link State ID: 29.0.1.2 (address of Designated Router)
+  Advertising Router: 29.153.0.1
+  LS Seq Number: 80000060
+  Checksum: 0x5a5d
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.152.0.1
+
+        Attached Router: 29.153.0.1
+
+  LS age: 1032
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x6  
+  LS Type: network-LSA
+  Link State ID: 29.0.2.1 (address of Designated Router)
+  Advertising Router: 29.152.0.1
+  LS Seq Number: 80000039
+  Checksum: 0x974a
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.152.0.1
+
+        Attached Router: 29.151.0.1
+
+  LS age: 1051
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x6  
+  LS Type: network-LSA
+  Link State ID: 29.0.3.2 (address of Designated Router)
+  Advertising Router: 29.154.0.1
+  LS Seq Number: 80000061
+  Checksum: 0x4e63
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.153.0.1
+
+        Attached Router: 29.154.0.1
+
+  LS age: 1046
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x6  
+  LS Type: network-LSA
+  Link State ID: 29.0.4.1 (address of Designated Router)
+  Advertising Router: 29.153.0.1
+  LS Seq Number: 8000005e
+  Checksum: 0x3781
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.153.0.1
+
+        Attached Router: 29.151.0.1
+
+  LS age: 839
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x6  
+  LS Type: network-LSA
+  Link State ID: 29.0.5.2 (address of Designated Router)
+  Advertising Router: 29.155.0.1
+  LS Seq Number: 80000062
+  Checksum: 0x3a72
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.153.0.1
+
+        Attached Router: 29.155.0.1
+
+  LS age: 933
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x3  
+  LS Type: network-LSA
+  Link State ID: 29.0.6.2 (address of Designated Router)
+  Advertising Router: 29.158.0.1
+  LS Seq Number: 80000030
+  Checksum: 0x9f38
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.153.0.1
+
+        Attached Router: 29.158.0.1
+
+  LS age: 1309
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x6  
+  LS Type: network-LSA
+  Link State ID: 29.0.7.1 (address of Designated Router)
+  Advertising Router: 29.151.0.1
+  LS Seq Number: 8000005f
+  Checksum: 0x5063
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.151.0.1
+
+        Attached Router: 29.156.0.1
+
+  LS age: 1149
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x6  
+  LS Type: network-LSA
+  Link State ID: 29.0.8.2 (address of Designated Router)
+  Advertising Router: 29.155.0.1
+  LS Seq Number: 8000005e
+  Checksum: 0x119e
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.151.0.1
+
+        Attached Router: 29.155.0.1
+
+  LS age: 983
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x3  
+  LS Type: network-LSA
+  Link State ID: 29.0.9.1 (address of Designated Router)
+  Advertising Router: 29.158.0.1
+  LS Seq Number: 80000061
+  Checksum: 0x1e85
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.158.0.1
+
+        Attached Router: 29.154.0.1
+
+  LS age: 937
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x6  
+  LS Type: network-LSA
+  Link State ID: 29.0.10.2 (address of Designated Router)
+  Advertising Router: 29.156.0.1
+  LS Seq Number: 80000087
+  Checksum: 0xccb1
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.155.0.1
+
+        Attached Router: 29.156.0.1
+
+  LS age: 799
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x6  
+  LS Type: network-LSA
+  Link State ID: 29.0.11.2 (address of Designated Router)
+  Advertising Router: 29.157.0.1
+  LS Seq Number: 80000061
+  Checksum: 0x128f
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.155.0.1
+
+        Attached Router: 29.157.0.1
+
+  LS age: 853
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x3  
+  LS Type: network-LSA
+  Link State ID: 29.0.12.2 (address of Designated Router)
+  Advertising Router: 29.158.0.1
+  LS Seq Number: 8000003a
+  Checksum: 0x596c
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.155.0.1
+
+        Attached Router: 29.158.0.1
+
+  LS age: 963
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x3  
+  LS Type: network-LSA
+  Link State ID: 29.0.13.2 (address of Designated Router)
+  Advertising Router: 29.158.0.1
+  LS Seq Number: 8000003a
+  Checksum: 0x5e64
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.157.0.1
+
+        Attached Router: 29.158.0.1
+
+ZURI_router# 

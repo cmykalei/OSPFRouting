@@ -1,0 +1,2 @@
+ip addr add 29.107.0.1/24 dev ATLArouter
+ip route add default via 29.107.0.2

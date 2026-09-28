@@ -1,0 +1,25 @@
+Measuring traceroute for HAML(2) <-> NEWY(5)
+HAML_router# traceroute 29.105.0.2
+traceroute to 29.105.0.2 (29.105.0.2), 30 hops max, 46 byte packets
+ 1  pari.group29 (29.0.4.1)  1.724 ms  lond.group29 (29.0.2.2)  2.180 ms  2.403
+ms
+ 2  newy.group29 (29.105.0.2)  2.434 ms  2.341 ms  2.341 ms
+HAML_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

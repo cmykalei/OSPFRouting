@@ -1,0 +1,25 @@
+Measuring latency for TRGA(4) <-> BOST(6)
+TRGA_router# ping 29.106.0.2
+PING 29.106.0.2 (29.106.0.2) 56(84) bytes of data.
+64 bytes from 29.106.0.2: icmp_seq=1 ttl=62 time=2.28 ms
+64 bytes from 29.106.0.2: icmp_seq=2 ttl=62 time=2.25 ms
+64 bytes from 29.106.0.2: icmp_seq=3 ttl=62 time=2.34 ms
+64 bytes from 29.106.0.2: icmp_seq=4 ttl=62 time=2.26 ms
+64 bytes from 29.106.0.2: icmp_seq=5 ttl=62 time=2.38 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

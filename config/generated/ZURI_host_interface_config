@@ -1,0 +1,2 @@
+ip addr add 29.108.0.1/24 dev ZURIrouter
+ip route add default via 29.108.0.2

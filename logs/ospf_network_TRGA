@@ -1,0 +1,24 @@
+  Checksum: 0x596c
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.155.0.1
+
+        Attached Router: 29.158.0.1
+
+  LS age: 630
+  Options: 0x2  : *|-|-|-|-|-|E|-
+  LS Flags: 0x6
+  LS Type: network-LSA
+  Link State ID: 29.0.13.2 (address of Designated Router)
+  Advertising Router: 29.158.0.1
+  LS Seq Number: 8000003a
+  Checksum: 0x5e64
+  Length: 32
+
+  Network Mask: /30
+        Attached Router: 29.157.0.1
+
+        Attached Router: 29.158.0.1
+
+TRGA_router#

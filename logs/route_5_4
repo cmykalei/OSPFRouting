@@ -1,0 +1,25 @@
+Measuring route from NEWY(5) <-> TRGA(4)
+NEWY_router# show ip route 29.104.0.2
+Routing entry for 29.104.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:19:42 ago
+  * 29.0.5.1, via port_PARI, weight 1
+  * 29.0.12.2, via port_ZURI, weight 1
+
+NEWY_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

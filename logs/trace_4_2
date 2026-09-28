@@ -1,0 +1,25 @@
+Measuring traceroute for TRGA(4) <-> HAML(2)
+TRGA_router# traceroute 29.102.0.2
+traceroute to 29.102.0.2 (29.102.0.2), 30 hops max, 46 byte packets
+ 1  pari.group29 (29.0.3.1)  0.006 ms  0.325 ms  0.077 ms
+ 2  haml.group29 (29.102.0.2)  0.343 ms  0.342 ms  0.366 ms
+TRGA_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

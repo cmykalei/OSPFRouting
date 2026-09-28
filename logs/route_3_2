@@ -1,0 +1,25 @@
+Measuring route from PARI(3) <-> HAML(2)
+PARI_router# show ip route 29.102.0.2
+Routing entry for 29.102.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:19:40 ago
+  * 29.0.1.1, via port_HAML, weight 1
+
+PARI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

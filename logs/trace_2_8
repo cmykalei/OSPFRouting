@@ -1,0 +1,25 @@
+Measuring traceroute for HAML(2) <-> ZURI(8)
+HAML_router# traceroute 29.108.0.2
+traceroute to 29.108.0.2 (29.108.0.2), 30 hops max, 46 byte packets
+ 1  pari.group29 (29.0.1.2)  1.518 ms  1.293 ms  0.289 ms
+ 2  zuri.group29 (29.108.0.2)  1.990 ms  0.884 ms  0.595 ms
+HAML_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

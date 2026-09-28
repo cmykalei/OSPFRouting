@@ -1,0 +1,25 @@
+Measuring traceroute for PARI(3) <-> NEWY(5)
+PARI_router# traceroute 29.105.0.2
+traceroute to 29.105.0.2 (29.105.0.2), 30 hops max, 46 byte packets
+ 1  newy.group29 (29.105.0.2)  2.261 ms  2.132 ms  2.676 ms
+PARI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

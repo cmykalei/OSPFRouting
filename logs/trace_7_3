@@ -1,0 +1,25 @@
+Measuring traceroute for ATLA(7) <-> PARI(3)
+ATLA_router# traceroute 29.103.0.2
+traceroute to 29.103.0.2 (29.103.0.2), 30 hops max, 46 byte packets
+ 1  zuri.group29 (29.0.13.2)  0.305 ms  newy.group29 (29.0.12.1)  0.331 ms  zuri
+.group29 (29.0.13.2)  1.226 ms
+ 2  pari.group29 (29.103.0.2)  1.640 ms  1.237 ms  0.704 ms
+ATLA_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

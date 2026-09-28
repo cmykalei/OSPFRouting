@@ -1,0 +1,181 @@
+Step 12
+VERSION 1
+
+New latency measured for LOND(1) <-> BOST(6)
+    Now:
+        LOND_router# ping 29.106.0.2
+        PING 29.106.0.2 (29.106.0.2) 56(84) bytes of data.
+        64 bytes from 29.106.0.2: icmp_seq=1 ttl=63 time=0.394 ms
+        64 bytes from 29.106.0.2: icmp_seq=2 ttl=63 time=0.362 ms
+        64 bytes from 29.106.0.2: icmp_seq=3 ttl=63 time=0.450 ms
+        64 bytes from 29.106.0.2: icmp_seq=4 ttl=63 time=0.355 ms
+        64 bytes from 29.106.0.2: icmp_seq=5 ttl=63 time=0.400 ms
+    Before:
+        LOND_router# ping 29.106.0.2
+        PING 29.106.0.2 (29.106.0.2) 56(84) bytes of data.
+        64 bytes from 29.106.0.2: icmp_seq=1 ttl=64 time=20.1 ms
+        64 bytes from 29.106.0.2: icmp_seq=2 ttl=64 time=20.1 ms
+        64 bytes from 29.106.0.2: icmp_seq=3 ttl=64 time=22.3 ms
+        64 bytes from 29.106.0.2: icmp_seq=4 ttl=64 time=20.1 ms
+        64 bytes from 29.106.0.2: icmp_seq=5 ttl=64 time=20.1 ms
+
+New traceroute recorded for LOND(1) <-> BOST(6)
+    Now:
+        LOND_router# traceroute 29.106.0.2
+        traceroute to 29.106.0.2 (29.106.0.2), 30 hops max, 46 byte packets
+         1  newy.group29 (29.0.8.2)  0.365 ms  0.286 ms  0.264 ms
+         2  bost.group29 (29.106.0.2)  0.306 ms  0.386 ms  0.291 ms
+    Before:
+        LOND_router# traceroute 29.106.0.2
+        traceroute to 29.106.0.2 (29.106.0.2), 30 hops max, 46 byte packets
+         1  bost.group29 (29.106.0.2)  22.128 ms  20.135 ms  20.150 ms
+
+New iperf3 measurement for LOND(1) <-> BOST(6)
+    Now:
+        BOST_host:~# iperf3 -c 29.101.0.1
+        Connecting to host 29.101.0.1, port 5201
+        [  5] local 29.106.0.1 port 33954 connected to 29.101.0.1 port 5201
+        [ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+        [  5]   0.00-1.00   sec  4.88 MBytes  40.9 Mbits/sec   99    967 KBytes
+        [  5]   1.00-2.00   sec  1.38 MBytes  11.5 Mbits/sec  248    865 KBytes
+        [  5]   2.00-3.00   sec  1.38 MBytes  11.5 Mbits/sec    0   1001 KBytes
+        [  5]   3.00-4.00   sec  1.50 MBytes  12.6 Mbits/sec   78    703 KBytes
+        [  5]   4.00-5.00   sec  1.38 MBytes  11.5 Mbits/sec    0    721 KBytes
+        [  5]   5.00-6.00   sec  0.00 Bytes   00.00 bits/sec    0    766 KBytes
+        [  5]   6.00-7.00   sec  1.38 MBytes  11.5 Mbits/sec    0    803 KBytes
+        [  5]   7.00-8.00   sec  1.38 MBytes  11.5 Mbits/sec    0    829 KBytes
+        [  5]   8.00-9.00   sec  1.38 MBytes  11.5 Mbits/sec    0    844 KBytes
+    Before:
+        BOST_host:~# iperf3 -c 29.101.0.1 -t 10
+        Connecting to host 29.101.0.1, port 5201
+        [  5] local 29.106.0.1 port 48376 connected to 29.101.0.1 port 5201
+        [ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+        [  5]   0.00-1.00   sec  23.9 MBytes   200 Mbits/sec    0   9.83 MBytes
+        [  5]   1.00-2.00   sec  10.1 MBytes  84.9 Mbits/sec    0   9.83 MBytes
+        [  5]   2.00-3.00   sec  12.0 MBytes   101 Mbits/sec    0   9.83 MBytes
+        [  5]   3.00-4.00   sec  11.5 MBytes  96.5 Mbits/sec    0   9.83 MBytes
+        [  5]   4.00-5.00   sec  10.2 MBytes  86.0 Mbits/sec    0   9.83 MBytes
+        [  5]   5.00-6.00   sec  12.2 MBytes   103 Mbits/sec    0   9.83 MBytes
+        [  5]   6.00-7.00   sec  12.2 MBytes   103 Mbits/sec    0   9.83 MBytes
+        [  5]   7.00-8.00   sec  10.2 MBytes  86.0 Mbits/sec    0   9.83 MBytes
+        [  5]   8.00-9.00   sec  12.2 MBytes   103 Mbits/sec    0   9.83 MBytes
+
+New latency measured for NEWY(5) <-> PARI(3)
+    Now:
+        NEWY_router# ping 29.103.0.2
+        PING 29.103.0.2 (29.103.0.2) 56(84) bytes of data.
+        64 bytes from 29.103.0.2: icmp_seq=1 ttl=63 time=0.293 ms
+        64 bytes from 29.103.0.2: icmp_seq=2 ttl=63 time=0.277 ms
+        64 bytes from 29.103.0.2: icmp_seq=3 ttl=63 time=0.263 ms
+        64 bytes from 29.103.0.2: icmp_seq=4 ttl=63 time=0.282 ms
+        64 bytes from 29.103.0.2: icmp_seq=5 ttl=63 time=0.254 ms
+    Before:
+        NEWY_router# ping 29.103.0.2
+        PING 29.103.0.2 (29.103.0.2) 56(84) bytes of data.
+        64 bytes from 29.103.0.2: icmp_seq=1 ttl=64 time=2.22 ms
+        64 bytes from 29.103.0.2: icmp_seq=2 ttl=64 time=2.11 ms
+        64 bytes from 29.103.0.2: icmp_seq=3 ttl=64 time=2.12 ms
+        64 bytes from 29.103.0.2: icmp_seq=4 ttl=64 time=2.10 ms
+        64 bytes from 29.103.0.2: icmp_seq=5 ttl=64 time=2.11 ms
+
+New traceroute recorded for NEWY(5) <-> PARI(3)
+    Now:
+        NEWY_router# traceroute 29.103.0.2
+        traceroute to 29.103.0.2 (29.103.0.2), 30 hops max, 46 byte packets
+         1  lond.group29 (29.0.8.1)  2.631 ms  0.295 ms  0.254 ms
+         2  pari.group29 (29.103.0.2)  0.479 ms  0.270 ms  0.286 mss
+    Before:
+        NEWY_router# traceroute 29.103.0.2
+        traceroute to 29.103.0.2 (29.103.0.2), 30 hops max, 46 byte packets
+         1  pari.group29 (29.103.0.2)  2.532 ms  2.113 ms  2.112 ms
+
+New iperf3 measurement for NEWY(5) <-> PARI(3)
+    Now:
+        PARI_host:~# iperf3 -c 29.105.0.1
+        Connecting to host 29.105.0.1, port 5201
+        [  5] local 29.103.0.1 port 51652 connected to 29.105.0.1 port 5201
+        [ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+        [  5]   0.00-1.00   sec  24.1 MBytes   202 Mbits/sec    0   1.83 MBytes
+        [  5]   1.00-2.00   sec  11.0 MBytes  92.2 Mbits/sec    0   2.40 MBytes
+        [  5]   2.00-3.00   sec  10.9 MBytes  91.3 Mbits/sec    0   2.97 MBytes
+        [  5]   3.00-4.00   sec  12.4 MBytes   104 Mbits/sec    0   3.55 MBytes
+        [  5]   4.00-5.00   sec  11.0 MBytes  92.5 Mbits/sec    0   4.08 MBytes
+        [  5]   5.00-6.00   sec  11.0 MBytes  92.2 Mbits/sec    0   4.08 MBytes
+        [  5]   6.00-7.00   sec  12.4 MBytes   104 Mbits/sec    0   4.08 MBytes
+        [  5]   7.00-8.00   sec  11.0 MBytes  92.2 Mbits/sec    0   4.08 MBytes
+        [  5]   8.00-9.00   sec  11.0 MBytes  92.3 Mbits/sec    0   4.08 MBytes
+    Before:
+        PARI_host:~# iperf3 -c 29.105.0.1 -t 10
+        Connecting to host 29.105.0.1, port 5201
+        [  5] local 29.103.0.1 port 52294 connected to 29.105.0.1 port 5201
+        [ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+        [  5]   0.00-1.00   sec  5.00 MBytes    41.9 Mbits/sec   0    817 KBytes
+        [  5]   1.00-2.00   sec  0.00 Bytes     0.00 bits/sec    0    875 KBytes
+        [  5]   2.00-3.00   sec  1.38 MBytes    11.5 Mbits/sec   0    935 KBytes
+        [  5]   3.00-4.00   sec  1.38 MBytes    11.5 Mbits/sec   9    918 KBytes
+        [  5]   4.00-5.00   sec  0.00 Bytes     0.00 bits/sec   27    689 KBytes
+        [  5]   5.00-6.00   sec  2.75 MBytes    23.1 Mbits/sec   0    724 KBytes
+        [  5]   6.00-7.00   sec  1.38 MBytes    11.5 Mbits/sec   0    798 KBytes
+        [  5]   7.00-8.00   sec  0.00 Bytes     0.00 bits/sec    0    860 KBytes
+        [  5]   8.00-9.00   sec  1.38 MBytes    11.5 Mbits/sec   0    909 KBytes
+
+
+New latency measured for LOND(1) <-> HAML(2)
+    Now:
+        LOND_router# ping 29.102.0.2
+        PING 29.102.0.2 (29.102.0.2) 56(84) bytes of data.
+        64 bytes from 29.102.0.2: icmp_seq=1 ttl=64 time=2.20 ms
+        64 bytes from 29.102.0.2: icmp_seq=2 ttl=64 time=2.10 ms
+        64 bytes from 29.102.0.2: icmp_seq=3 ttl=64 time=2.13 ms
+        64 bytes from 29.102.0.2: icmp_seq=4 ttl=64 time=2.11 ms
+        64 bytes from 29.102.0.2: icmp_seq=5 ttl=64 time=2.15 ms
+    Before:
+        LOND_router# ping 29.102.0.2
+        PING 29.102.0.2 (29.102.0.2) 56(84) bytes of data.
+        64 bytes from 29.102.0.2: icmp_seq=1 ttl=64 time=2.11 ms
+        64 bytes from 29.102.0.2: icmp_seq=2 ttl=64 time=2.09 ms
+        64 bytes from 29.102.0.2: icmp_seq=3 ttl=64 time=2.09 ms
+        64 bytes from 29.102.0.2: icmp_seq=4 ttl=64 time=2.09 ms
+        64 bytes from 29.102.0.2: icmp_seq=5 ttl=64 time=2.09 ms
+
+New traceroute recorded for LOND(1) <-> HAML(2)
+    Now:
+        LOND_router# traceroute 29.102.0.2
+        traceroute to 29.102.0.2 (29.102.0.2), 30 hops max, 46 byte packets
+         1  haml.group29 (29.102.0.2)  2.178 ms  2.115 ms  2.118 ms
+    Before:
+        LOND_router# traceroute 29.102.0.2
+        traceroute to 29.102.0.2 (29.102.0.2), 30 hops max, 46 byte packets
+        1  haml.group29 (29.102.0.2)  2.208 ms  2.138 ms  2.112 ms
+
+New iperf3 measurement for LOND(1) <-> HAML(2)
+    Now:
+        HAML_host:~# iperf3 -c 29.101.0.1
+        Connecting to host 29.101.0.1, port 5201
+        [  5] local 29.102.0.1 port 38978 connected to 29.101.0.1 port 5201
+        [ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+        [  5]   0.00-1.00   sec  23.1 MBytes   194 Mbits/sec    0   5.59 MBytes
+        [  5]   1.00-2.00   sec  11.2 MBytes  94.3 Mbits/sec    0   5.59 MBytes
+        [  5]   2.00-3.00   sec  14.1 MBytes   119 Mbits/sec    0   5.59 MBytes
+        [  5]   3.00-4.00   sec  11.2 MBytes  94.2 Mbits/sec    0   5.59 MBytes
+        [  5]   4.00-5.00   sec  11.4 MBytes  95.5 Mbits/sec    0   5.59 MBytes
+        [  5]   5.00-6.00   sec  11.2 MBytes  94.4 Mbits/sec    0   5.59 MBytes
+        [  5]   6.00-7.00   sec  11.2 MBytes  94.4 Mbits/sec    0   5.59 MBytes
+        [  5]   7.00-8.00   sec  11.2 MBytes  94.4 Mbits/sec    0   5.59 MBytes
+        [  5]   8.00-9.00   sec  10.2 MBytes  86.0 Mbits/sec    0   5.59 MBytes
+    Before:
+        HAML_host:~# iperf3 -c 29.101.0.1 -t 10
+        Connecting to host 29.101.0.1, port 5201
+        [  5] local 29.102.0.1 port 43992 connected to 29.101.0.1 port 5201
+        [ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+        [  5]   0.00-1.00   sec  25.8 MBytes   216 Mbits/sec    0   6.75 MBytes
+        [  5]   1.00-2.00   sec  11.2 MBytes  94.4 Mbits/sec    0   6.75 MBytes
+        [  5]   2.00-3.00   sec  11.1 MBytes  93.3 Mbits/sec    0   6.75 MBytes
+        [  5]   3.00-4.00   sec  11.1 MBytes  93.3 Mbits/sec    0   6.75 MBytes
+        [  5]   4.00-5.00   sec  10.2 MBytes  86.0 Mbits/sec    0   6.75 MBytes
+        [  5]   5.00-6.00   sec  11.1 MBytes  93.3 Mbits/sec    0   6.75 MBytes
+        [  5]   6.00-7.01   sec  11.2 MBytes  93.3 Mbits/sec    0   6.75 MBytes
+        [  5]   7.01-8.00   sec  11.5 MBytes  97.6 Mbits/sec    0   6.75 MBytes
+        [  5]   8.00-9.00   sec  12.8 MBytes   107 Mbits/sec    0   6.75 MBytes
+
+

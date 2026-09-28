@@ -1,0 +1,6 @@
+configure terminal
+router ospf
+ospf router-id 29.154.0.1
+network 29.0.3.0/30 area 0.0.0.0
+network 29.0.9.0/30 area 0.0.0.0
+redistribute connected

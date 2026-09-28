@@ -1,0 +1,25 @@
+Measuring throughput for ZURI(8) <-> TRGA(4)
+root@g29-proxy ~> ./goto.sh TRGA host
+iperf3 -c 29.108.0.1 -t 10
+iperf3 -c 29.108.0.1 -t 10
+TRGA_host:~# iperf3 -c 29.108.0.1 -t 10
+Connecting to host 29.108.0.1, port 5201
+[  5] local 29.104.0.1 port 49504 connected to 29.108.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  1.12 MBytes  9.42 Mbits/sec    2    233 KBytes
+[  5]   1.00-2.00   sec   768 KBytes  6.29 Mbits/sec   39    127 KBytes
+[  5]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec   85    116 KBytes
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec    5    117 KBytes
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec   12   84.8 KBytes
+[  5]   5.00-6.00   sec  0.00 Bytes  0.00 bits/sec    0   74.9 KBytes
+[  5]   6.00-7.00   sec   512 KBytes  4.19 Mbits/sec    0   82.0 KBytes
+[  5]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec    0   84.8 KBytes
+[  5]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    0   84.8 KBytes
+
+
+
+
+
+
+
+

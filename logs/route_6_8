@@ -1,0 +1,25 @@
+Measuring route from BOST(6) <-> ZURI(8)
+BOST_router# show ip route 29.108.0.2
+Routing entry for 29.108.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:20:05 ago
+  * 29.0.10.1, via port_NEWY, weight 1
+
+BOST_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+158.29.0.0/16 dev ssh proto kernel scope link src 158.29.200.10 
+192.168.107.0/24 dev 29-WEST proto kernel scope link src 192.168.107.253 
+192.168.108.0/24 dev 29-MID proto kernel scope link src 192.168.108.253 
+192.168.109.0/24 via 192.168.108.254 dev 29-MID 

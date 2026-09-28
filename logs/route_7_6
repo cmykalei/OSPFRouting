@@ -1,0 +1,25 @@
+Measuring route from ATLA(7) <-> BOST(6)
+ATLA_router# show ip route 29.106.0.2
+Routing entry for 29.106.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:20:24 ago
+  * 29.0.11.1, via port_NEWY, weight 1
+
+ATLA_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

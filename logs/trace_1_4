@@ -1,0 +1,25 @@
+Measuring traceroute for LOND(1) <-> TRGA(4)
+LOND_router# traceroute 29.104.0.2
+traceroute to 29.104.0.2 (29.104.0.2), 30 hops max, 46 byte packets
+ 1  pari.group29 (29.0.4.1)  0.158 ms  0.114 ms  0.105 ms
+ 2  trga.group29 (29.104.0.2)  0.186 ms  0.355 ms  0.157 ms
+LOND_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

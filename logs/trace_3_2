@@ -1,0 +1,25 @@
+Measuring traceroute for PARI(3) <-> HAML(2)
+PARI_router# traceroute 29.102.0.2
+traceroute to 29.102.0.2 (29.102.0.2), 30 hops max, 46 byte packets
+ 1  haml.group29 (29.102.0.2)  0.573 ms  3.238 ms  0.624 ms
+PARI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

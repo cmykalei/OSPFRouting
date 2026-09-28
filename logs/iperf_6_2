@@ -1,0 +1,25 @@
+Measuring throughput for BOST(6) <-> HAML(2)
+root@g29-proxy ~> ./goto.sh HAML host
+iperf3 -c 29.106.0.1 -t 10
+HAML_host:~# iperf3 -c 29.106.0.1 -t 10
+Connecting to host 29.106.0.1, port 5201
+[  5] local 29.102.0.1 port 33020 connected to 29.106.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  22.6 MBytes   190 Mbits/sec    0   9.58 MBytes
+[  5]   1.00-2.00   sec  12.2 MBytes   103 Mbits/sec    0   9.58 MBytes
+[  5]   2.00-3.00   sec  10.4 MBytes  86.9 Mbits/sec    0   9.58 MBytes
+[  5]   3.00-4.00   sec  12.2 MBytes   103 Mbits/sec    0   9.58 MBytes
+[  5]   4.00-5.00   sec  10.1 MBytes  85.0 Mbits/sec    0   9.58 MBytes
+[  5]   5.00-6.00   sec  12.4 MBytes   104 Mbits/sec    0   9.58 MBytes
+[  5]   6.00-7.00   sec  12.2 MBytes   103 Mbits/sec    0   9.58 MBytes
+[  5]   7.00-8.00   sec  10.2 MBytes  86.0 Mbits/sec    0   9.58 MBytes
+[  5]   8.00-9.00   sec  12.1 MBytes   102 Mbits/sec    0   9.58 MBytes
+
+
+
+
+
+
+
+
+

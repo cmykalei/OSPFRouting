@@ -1,0 +1,25 @@
+Measuring route from ZURI(8) <-> NEWY(5)
+ZURI_router# show ip route 29.105.0.2
+Routing entry for 29.105.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:20:34 ago
+  * 29.0.12.1, via port_NEWY, weight 1
+
+ZURI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

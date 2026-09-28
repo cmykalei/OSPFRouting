@@ -1,0 +1,25 @@
+Measuring latency for HAML(2) <-> TRGA(4)
+HAML_router# ping 29.104.0.2
+PING 29.104.0.2 (29.104.0.2) 56(84) bytes of data.
+64 bytes from 29.104.0.2: icmp_seq=1 ttl=63 time=0.348 ms
+64 bytes from 29.104.0.2: icmp_seq=2 ttl=63 time=0.369 ms
+64 bytes from 29.104.0.2: icmp_seq=3 ttl=63 time=0.387 ms
+64 bytes from 29.104.0.2: icmp_seq=4 ttl=63 time=0.376 ms
+64 bytes from 29.104.0.2: icmp_seq=5 ttl=63 time=0.359 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

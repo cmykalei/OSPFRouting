@@ -1,0 +1,25 @@
+Measuring traceroute for ATLA(7) <-> ZURI(8)
+ATLA_router# traceroute 29.108.0.2
+traceroute to 29.108.0.2 (29.108.0.2), 30 hops max, 46 byte packets
+ 1  zuri.group29 (29.108.0.2)  0.287 ms  0.292 ms  0.274 ms
+ATLA_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

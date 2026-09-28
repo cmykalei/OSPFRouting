@@ -1,0 +1,25 @@
+Measuring latency for NEWY(5) <-> PARI(3)
+NEWY_router# ping 29.103.0.2
+PING 29.103.0.2 (29.103.0.2) 56(84) bytes of data.
+64 bytes from 29.103.0.2: icmp_seq=1 ttl=64 time=2.22 ms
+64 bytes from 29.103.0.2: icmp_seq=2 ttl=64 time=2.11 ms
+64 bytes from 29.103.0.2: icmp_seq=3 ttl=64 time=2.12 ms
+64 bytes from 29.103.0.2: icmp_seq=4 ttl=64 time=2.10 ms
+64 bytes from 29.103.0.2: icmp_seq=5 ttl=64 time=2.11 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

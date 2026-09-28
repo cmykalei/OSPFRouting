@@ -1,0 +1,25 @@
+Measuring throughput for HAML(2) <-> NEWY(5)
+root@g29-proxy ~> ./goto.sh NEWY host
+iperf3 -c 29.102.0.1 -t 10
+iperf3 -c 29.102.0.1 -t 10
+NEWY_host:~# iperf3 -c 29.102.0.1 -t 10
+Connecting to host 29.102.0.1, port 5201
+[  5] local 29.105.0.1 port 56404 connected to 29.102.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  4.75 MBytes  39.7 Mbits/sec  119   1.49 MBytes
+[  5]   1.00-2.00   sec  1.38 MBytes  11.6 Mbits/sec  528    987 KBytes
+[  5]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec   78    980 KBytes
+[  5]   3.00-4.00   sec  3.00 MBytes  25.2 Mbits/sec  173    904 KBytes
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec    0    938 KBytes
+[  5]   5.00-6.00   sec  1.38 MBytes  11.5 Mbits/sec    9    885 KBytes
+[  5]   6.00-7.00   sec  1.50 MBytes  12.6 Mbits/sec   21    683 KBytes
+[  5]   7.00-8.00   sec  1.38 MBytes  11.5 Mbits/sec    0    708 KBytes
+[  5]   8.00-9.00   sec  1.25 MBytes  10.5 Mbits/sec    0    752 KBytes
+
+
+
+
+
+
+
+

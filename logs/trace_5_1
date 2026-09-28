@@ -1,0 +1,25 @@
+Measuring traceroute for NEWY(5) <-> LOND(1)
+NEWY_router# traceroute 29.101.0.2
+traceroute to 29.101.0.2 (29.101.0.2), 30 hops max, 46 byte packets
+ 1  lond.group29 (29.101.0.2)  0.285 ms  0.287 ms  0.707 ms
+NEWY_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

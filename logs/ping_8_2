@@ -1,0 +1,25 @@
+Measuring latency for ZURI(8) <-> HAML(2)
+ZURI_router# ping 29.102.0.2
+PING 29.102.0.2 (29.102.0.2) 56(84) bytes of data.
+64 bytes from 29.102.0.2: icmp_seq=1 ttl=63 time=0.551 ms
+64 bytes from 29.102.0.2: icmp_seq=2 ttl=63 time=0.432 ms
+64 bytes from 29.102.0.2: icmp_seq=3 ttl=63 time=0.398 ms
+64 bytes from 29.102.0.2: icmp_seq=4 ttl=63 time=0.449 ms
+64 bytes from 29.102.0.2: icmp_seq=5 ttl=63 time=0.416 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+Measuring traceroute for HAML(2) <-> ATLA(7)
+HAML_router# traceroute 29.107.0.2
+traceroute to 29.107.0.2 (29.107.0.2), 30 hops max, 46 byte packets
+ 1  lond.group29 (29.0.2.2)  7.326 ms  pari.group29 (29.0.4.1)  1.280 ms  lond.g
+roup29 (29.0.2.2)  2.205 ms
+ 2  newy.group29 (29.0.8.2)  6.196 ms  zuri.group29 (29.0.6.2)  0.470 ms  0.582
+ms
+ 3  atla.group29 (29.107.0.2)  1.635 ms  3.039 ms  2.817 ms
+HAML_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

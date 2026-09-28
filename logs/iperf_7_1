@@ -1,0 +1,25 @@
+Measuring throughput for ATLA(7) <-> LOND(1)
+root@g29-proxy ~> ./goto.sh LOND host
+iperf3 -c 29.107.0.1 -t 10
+LOND_host:~# iperf3 -c 29.107.0.1 -t 10
+Connecting to host 29.107.0.1, port 5201
+[  5] local 29.101.0.1 port 54650 connected to 29.107.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  5.75 MBytes  48.2 Mbits/sec   63   1.33 MBytes
+[  5]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec  432    909 KBytes
+[  5]   2.00-3.00   sec  1.38 MBytes  11.5 Mbits/sec    0   1.13 MBytes
+[  5]   3.00-4.00   sec  1.50 MBytes  12.6 Mbits/sec  161    809 KBytes
+[  5]   4.00-5.00   sec  1.38 MBytes  11.5 Mbits/sec    0    841 KBytes
+[  5]   5.00-6.00   sec  1.38 MBytes  11.5 Mbits/sec    0    889 KBytes
+[  5]   6.00-7.00   sec  1.38 MBytes  11.5 Mbits/sec    0    928 KBytes
+[  5]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec    2    892 KBytes
+[  5]   8.00-9.00   sec  2.00 MBytes  16.8 Mbits/sec   41    669 KBytes
+
+
+
+
+
+
+
+
+

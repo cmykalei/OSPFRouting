@@ -1,0 +1,67 @@
+Step 9
+VERSION 1
+
+LOND (1) <− > BOST (6)
+Latency:    20 ms
+Bandwidth:  103 Mbits/sec
+Cost:       20
+
+LOND (1) <− > NEWY (5)
+Latency:    0.25 ms
+Bandwidth:  11 Mbits/sec
+Cost:       20
+
+LOND (1) <− > PARI (3)
+Latency:    0.10 ms
+Bandwidth:  98 Mbits/sec
+Cost:       20
+
+LOND (1) <− > HAML (2)
+Latency:    2.10 ms
+Bandwidth:  93 Mbits/sec
+Cost:       20
+
+NEWY (5) <− > BOST (6)
+Latency:    20 ms
+Bandwidth:  93 Mbits/sec
+Cost:       20
+
+NEWY (5) <− > PARI (3)
+Latency:    0.12 ms
+Bandwidth:  11 Mbits/sec *** ERROR: 27 Retr
+Cost:       20
+
+NEWY (5) <− > ZURI (8)
+Latency:    0.32 ms
+Bandwidth:  94 Mbits/sec
+Cost:       20
+
+NEWY (5) <− > ATLA (7)
+Latency:    0.28 ms
+Bandwidth:  92 Mbits/sec
+Cost:       20
+
+ZURI (8) <− > ATLA (7)
+Latency:    0.55 ms
+Bandwidth:  93 Mbits/sec
+Cost:       20
+
+ZURI (8) <− > TRGA (4)
+Latency:    0.21 ms
+Bandwidth:  6 Mbits/sec *** ERROR: 85 Retr
+Cost:       20
+
+ZURI (8) <− > PARI (3)
+Latency:    0.10 ms
+Bandwidth:  92 Mbits/sec
+Cost:       20
+
+PARI (3) <− > TRGA (4)
+Latency:    0.12 ms
+Bandwidth:  92 Mbits/sec
+Cost:       20
+
+PARI (3) <− > HAML (2)
+Latency:    0.33 ms
+Bandwidth:  92 Mbits/sec
+Cost:       20

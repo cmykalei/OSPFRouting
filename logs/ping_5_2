@@ -1,0 +1,25 @@
+Measuring latency for NEWY(5) <-> HAML(2)
+NEWY_router# ping 29.102.0.2
+PING 29.102.0.2 (29.102.0.2) 56(84) bytes of data.
+64 bytes from 29.102.0.2: icmp_seq=1 ttl=63 time=2.40 ms
+64 bytes from 29.102.0.2: icmp_seq=2 ttl=63 time=2.37 ms
+64 bytes from 29.102.0.2: icmp_seq=3 ttl=63 time=2.38 ms
+64 bytes from 29.102.0.2: icmp_seq=4 ttl=63 time=2.38 ms
+64 bytes from 29.102.0.2: icmp_seq=5 ttl=63 time=2.35 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

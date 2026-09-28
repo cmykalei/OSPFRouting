@@ -1,0 +1,49 @@
+Tests for link PARI(3) <-> TRGA(4)
+root@g29-proxy ~> ./goto.sh PARI router
+ping 29.104.0.2
+
+Hello, this is FRRouting (version 8.2.2).
+Copyright 1996-2005 Kunihiro Ishiguro, et al.
+
+PARI_router# ping 29.104.0.2
+PING 29.104.0.2 (29.104.0.2) 56(84) bytes of data.
+64 bytes from 29.104.0.2: icmp_seq=1 ttl=64 time=0.292 ms
+64 bytes from 29.104.0.2: icmp_seq=2 ttl=64 time=0.097 ms
+64 bytes from 29.104.0.2: icmp_seq=3 ttl=64 time=0.109 ms
+64 bytes from 29.104.0.2: icmp_seq=4 ttl=64 time=0.108 ms
+64 bytes from 29.104.0.2: icmp_seq=5 ttl=64 time=0.102 ms
+^C
+--- 29.104.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4051ms
+rtt min/avg/max/mdev = 0.097/0.141/0.292/0.075 ms
+PARI_router# traceroute 29.104.0.2
+traceroute to 29.104.0.2 (29.104.0.2), 30 hops max, 46 byte packets
+ 1  trga.group29 (29.104.0.2)  1.141 ms  0.094 ms  0.073 ms
+PARI_router# ^C
+PARI_router#
+
+
+|       ./goto.sh haml host                            |
+|       ./goto.sh univ west-1                          |
+|       ./goto.sh univ east-router                     |
+|                                                      |
+|              For any issues please contact:          |
+|             marinho.barcellos@waikato.ac.nz          |
+|                                                      |
+|                                                      |
++------------------------------------------------------+
+root@g29-proxy ~> ./goto.sh TRGA host
+TRGA_host:~# iperf3 -c 29.103.0.1
+Connecting to host 29.103.0.1, port 5201
+[  5] local 29.104.0.1 port 44816 connected to 29.103.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  23.6 MBytes   198 Mbits/sec    0   1.01 MBytes
+[  5]   1.00-2.00   sec  11.0 MBytes  92.4 Mbits/sec    0   1.58 MBytes
+[  5]   2.00-3.00   sec  12.2 MBytes   103 Mbits/sec    0   2.15 MBytes
+[  5]   3.00-4.00   sec  11.0 MBytes  92.3 Mbits/sec    0   2.72 MBytes
+[  5]   4.00-5.00   sec  11.0 MBytes  92.3 Mbits/sec    0   3.29 MBytes
+[  5]   5.00-6.00   sec  12.4 MBytes   104 Mbits/sec    0   3.86 MBytes
+[  5]   6.00-7.00   sec  10.9 MBytes  91.1 Mbits/sec    0   4.13 MBytes
+[  5]   7.00-8.00   sec  11.2 MBytes  94.5 Mbits/sec    0   4.13 MBytes
+[  5]   8.00-9.00   sec  11.0 MBytes  92.3 Mbits/sec    0   4.13 MBytes
+

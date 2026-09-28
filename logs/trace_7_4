@@ -1,0 +1,25 @@
+Measuring traceroute for ATLA(7) <-> TRGA(4)
+ATLA_router# traceroute 29.104.0.2
+traceroute to 29.104.0.2 (29.104.0.2), 30 hops max, 46 byte packets
+ 1  zuri.group29 (29.0.13.2)  1.368 ms  0.291 ms  0.258 ms
+ 2  trga.group29 (29.104.0.2)  0.510 ms  1.028 ms  0.713 ms
+ATLA_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

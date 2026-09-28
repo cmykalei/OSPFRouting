@@ -1,0 +1,25 @@
+Measuring traceroute for PARI(3) <-> TRGA(4)
+PARI_router# traceroute 29.104.0.2
+traceroute to 29.104.0.2 (29.104.0.2), 30 hops max, 46 byte packets
+ 1  trga.group29 (29.104.0.2)  0.201 ms  0.224 ms  0.183 ms
+PARI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

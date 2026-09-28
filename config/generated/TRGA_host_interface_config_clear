@@ -1,0 +1,2 @@
+ip addr del 29.104.0.1/24 dev TRGArouter
+ip route del default via 29.104.0.2

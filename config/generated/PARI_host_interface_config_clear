@@ -1,0 +1,2 @@
+ip addr del 29.103.0.1/24 dev PARIrouter
+ip route del default via 29.103.0.2

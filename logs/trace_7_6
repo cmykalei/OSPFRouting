@@ -1,0 +1,25 @@
+Measuring traceroute for ATLA(7) <-> BOST(6)
+ATLA_router# traceroute 29.106.0.2
+traceroute to 29.106.0.2 (29.106.0.2), 30 hops max, 46 byte packets
+ 1  newy.group29 (29.0.11.1)  2.113 ms  0.277 ms  0.247 ms
+ 2  bost.group29 (29.106.0.2)  0.307 ms  0.323 ms  0.286 ms
+ATLA_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

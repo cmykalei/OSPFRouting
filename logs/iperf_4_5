@@ -1,0 +1,25 @@
+Measuring throughput for TRGA(4) <-> NEWY(5)
+root@g29-proxy ~> ./goto.sh NEWY host
+iperf3 -c 29.104.0.1 -t 10
+NEWY_host:~# iperf3 -c 29.104.0.1 -t 10
+Connecting to host 29.104.0.1, port 5201
+[  5] local 29.105.0.1 port 49352 connected to 29.104.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  5.38 MBytes  45.1 Mbits/sec   88   1.17 MBytes
+[  5]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec  268    981 KBytes
+[  5]   2.00-3.00   sec  1.38 MBytes  11.5 Mbits/sec   54    757 KBytes
+[  5]   3.00-4.00   sec  1.50 MBytes  12.6 Mbits/sec    7    711 KBytes
+[  5]   4.00-5.00   sec  1.38 MBytes  11.5 Mbits/sec    0    751 KBytes
+[  5]   5.00-6.00   sec  1.25 MBytes  10.5 Mbits/sec    0    793 KBytes
+[  5]   6.00-7.00   sec  1.38 MBytes  11.5 Mbits/sec    0    824 KBytes
+[  5]   7.00-8.00   sec  1.38 MBytes  11.5 Mbits/sec    0    844 KBytes
+[  5]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    0    856 KBytes
+
+
+
+
+
+
+
+
+

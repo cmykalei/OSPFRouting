@@ -1,0 +1,25 @@
+Measuring route from ATLA(7) <-> TRGA(4)
+ATLA_router# show ip route 29.104.0.2
+Routing entry for 29.104.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:20:15 ago
+  * 29.0.13.2, via port_ZURI, weight 1
+
+ATLA_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

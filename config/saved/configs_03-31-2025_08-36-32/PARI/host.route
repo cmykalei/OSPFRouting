@@ -1,0 +1,3 @@
+default via 29.103.0.2 dev PARIrouter 
+29.103.0.0/24 dev PARIrouter proto kernel scope link src 29.103.0.1 
+158.29.0.0/16 dev ssh proto kernel scope link src 158.29.12.2 

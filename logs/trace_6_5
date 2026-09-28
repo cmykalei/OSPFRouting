@@ -1,0 +1,25 @@
+Measuring traceroute for BOST(6) <-> NEWY(5)
+BOST_router# traceroute 29.105.0.2
+traceroute to 29.105.0.2 (29.105.0.2), 30 hops max, 46 byte packets
+ 1  newy.group29 (29.105.0.2)  0.007 ms  0.117 ms  0.065 ms
+BOST_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

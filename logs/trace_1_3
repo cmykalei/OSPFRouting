@@ -1,0 +1,25 @@
+Measuring traceroute for LOND(1) <-> PARI(3)
+LOND_router# traceroute 29.103.0.2
+traceroute to 29.103.0.2 (29.103.0.2), 30 hops max, 46 byte packets
+ 1  pari.group29 (29.103.0.2)  0.287 ms  0.107 ms  3.738 ms
+LOND_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

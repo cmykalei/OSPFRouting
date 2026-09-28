@@ -1,0 +1,25 @@
+Measuring route from NEWY(5) <-> ATLA(7)
+NEWY_router# show ip route 29.107.0.2
+Routing entry for 29.107.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:19:51 ago
+  * 29.0.11.2, via port_ATLA, weight 1
+
+NEWY_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

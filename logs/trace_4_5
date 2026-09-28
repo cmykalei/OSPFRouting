@@ -1,0 +1,25 @@
+Measuring traceroute for TRGA(4) <-> NEWY(5)
+TRGA_router# traceroute 29.105.0.2
+traceroute to 29.105.0.2 (29.105.0.2), 30 hops max, 46 byte packets
+ 1  pari.group29 (29.0.3.1)  0.009 ms  0.125 ms  0.101 ms
+ 2  newy.group29 (29.105.0.2)  1.298 ms  1.272 ms  1.263 ms
+TRGA_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

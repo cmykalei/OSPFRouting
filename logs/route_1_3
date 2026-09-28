@@ -1,0 +1,25 @@
+Measuring route from LOND(1) <-> PARI(3)
+LOND_router# show ip route 29.103.0.2
+Routing entry for 29.103.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:19:07 ago
+  * 29.0.4.1, via port_PARI, weight 1
+
+LOND_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

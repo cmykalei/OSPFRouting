@@ -1,0 +1,3 @@
+configure terminal
+no ospf router-id
+no router ospf

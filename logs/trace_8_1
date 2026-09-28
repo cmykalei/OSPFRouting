@@ -1,0 +1,25 @@
+Measuring traceroute for ZURI(8) <-> LOND(1)
+ZURI_router# traceroute 29.101.0.2
+traceroute to 29.101.0.2 (29.101.0.2), 30 hops max, 46 byte packets
+ 1  pari.group29 (29.0.6.1)  0.202 ms  0.182 ms  0.147 ms
+ 2  lond.group29 (29.101.0.2)  0.312 ms  0.326 ms  0.271 ms
+ZURI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

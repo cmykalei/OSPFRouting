@@ -1,0 +1,24 @@
+  Router ID 29.152.0.1, Network Type BROADCAST, Cost: 10
+  Transmit Delay is 1 sec, State DR, Priority 1
+  Designated Router (ID) 29.152.0.1 Interface Address 29.0.2.1/30
+  Backup Designated Router (ID) 29.151.0.1, Interface Address 29.0.2.2
+  Saved Network-LSA sequence number 0x8000002f
+  Multicast group memberships: OSPFAllRouters OSPFDesignatedRouters
+  Timer intervals configured, Hello 10s, Dead 40s, Wait 40s, Retransmit 5
+    Hello due in 4.907s
+  Neighbor Count is 1, Adjacent neighbor count is 1
+port_PARI is up
+  ifindex 29615, MTU 1500 bytes, BW 10000 Mbit <UP,BROADCAST,RUNNING,MULTICAST>
+  Internet Address 29.0.1.1/30, Broadcast 29.0.1.3, Area 0.0.0.0
+  MTU mismatch detection: enabled
+  Router ID 29.152.0.1, Network Type BROADCAST, Cost: 10
+  Transmit Delay is 1 sec, State Backup, Priority 1
+  Designated Router (ID) 29.153.0.1 Interface Address 29.0.1.2/30
+  Backup Designated Router (ID) 29.152.0.1, Interface Address 29.0.1.1
+  Saved Network-LSA sequence number 0x80000006
+  Multicast group memberships: OSPFAllRouters OSPFDesignatedRouters
+  Timer intervals configured, Hello 10s, Dead 40s, Wait 40s, Retransmit 5
+    Hello due in 5.031s
+  Neighbor Count is 1, Adjacent neighbor count is 1
+
+HAML_router#

@@ -1,0 +1,25 @@
+Measuring throughput for HAML(2) <-> TRGA(4)
+root@g29-proxy ~> ./goto.sh TRGA host
+iperf3 -c 29.102.0.1 -t 10
+TRGA_host:~# iperf3 -c 29.102.0.1 -t 10
+Connecting to host 29.102.0.1, port 5201
+[  5] local 29.104.0.1 port 42236 connected to 29.102.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  23.2 MBytes   195 Mbits/sec    0   2.29 MBytes
+[  5]   1.00-2.00   sec  12.4 MBytes   104 Mbits/sec    0   2.86 MBytes
+[  5]   2.00-3.03   sec  11.1 MBytes  91.0 Mbits/sec    0   3.44 MBytes
+[  5]   3.03-4.00   sec  11.0 MBytes  94.7 Mbits/sec    0   4.00 MBytes
+[  5]   4.00-5.00   sec  11.0 MBytes  92.3 Mbits/sec    0   4.10 MBytes
+[  5]   5.00-6.00   sec  11.4 MBytes  95.4 Mbits/sec    0   4.10 MBytes
+[  5]   6.00-7.00   sec  12.4 MBytes   104 Mbits/sec    0   4.10 MBytes
+[  5]   7.00-8.00   sec  11.0 MBytes  92.3 Mbits/sec    0   4.10 MBytes
+[  5]   8.00-9.00   sec  11.0 MBytes  92.3 Mbits/sec    0   4.10 MBytes
+
+
+
+
+
+
+
+
+

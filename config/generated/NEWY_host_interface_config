@@ -1,0 +1,2 @@
+ip addr add 29.105.0.1/24 dev NEWYrouter
+ip route add default via 29.105.0.2

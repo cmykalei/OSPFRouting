@@ -1,0 +1,25 @@
+Measuring traceroute for ZURI(8) <-> PARI(3)
+ZURI_router# traceroute 29.103.0.2
+traceroute to 29.103.0.2 (29.103.0.2), 30 hops max, 46 byte packets
+ 1  pari.group29 (29.103.0.2)  0.214 ms  1.338 ms  0.422 ms
+ZURI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

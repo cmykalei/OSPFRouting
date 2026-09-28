@@ -1,0 +1,25 @@
+Measuring route from ZURI(8) <-> TRGA(4)
+ZURI_router# show ip route 29.104.0.2
+Routing entry for 29.104.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:20:37 ago
+  * 29.0.9.2, via port_TRGA, weight 1
+
+ZURI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

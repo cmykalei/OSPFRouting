@@ -1,0 +1,25 @@
+Measuring route from LOND(1) <-> ZURI(8)
+LOND_router# show ip route 29.108.0.2
+Routing entry for 29.108.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:18:41 ago
+  * 29.0.4.1, via port_PARI, weight 1
+  * 29.0.8.2, via port_NEWY, weight 1
+
+LOND_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+Measuring latency for LOND(1) <-> ATLA(7)
+LOND_router# ping 29.107.0.2
+PING 29.107.0.2 (29.107.0.2) 56(84) bytes of data.
+64 bytes from 29.107.0.2: icmp_seq=1 ttl=63 time=0.592 ms
+64 bytes from 29.107.0.2: icmp_seq=2 ttl=63 time=0.580 ms
+64 bytes from 29.107.0.2: icmp_seq=3 ttl=63 time=0.563 ms
+64 bytes from 29.107.0.2: icmp_seq=4 ttl=63 time=0.561 ms
+64 bytes from 29.107.0.2: icmp_seq=5 ttl=63 time=0.560 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

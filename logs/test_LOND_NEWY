@@ -1,0 +1,49 @@
+Tests for link LOND(1) <-> NEWY(5)
+root@g29-proxy ~> ./goto.sh LOND router
+
+Hello, this is FRRouting (version 8.2.2).
+Copyright 1996-2005 Kunihiro Ishiguro, et al.
+
+LOND_router# ping 29.105.0.2
+PING 29.105.0.2 (29.105.0.2) 56(84) bytes of data.
+64 bytes from 29.105.0.2: icmp_seq=1 ttl=64 time=0.320 ms
+64 bytes from 29.105.0.2: icmp_seq=2 ttl=64 time=0.341 ms
+64 bytes from 29.105.0.2: icmp_seq=3 ttl=64 time=0.350 ms
+64 bytes from 29.105.0.2: icmp_seq=4 ttl=64 time=0.273 ms
+64 bytes from 29.105.0.2: icmp_seq=5 ttl=64 time=0.273 ms
+^C
+--- 29.105.0.2 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4062ms
+rtt min/avg/max/mdev = 0.273/0.311/0.350/0.032 ms
+LOND_router# traceroute 29.105.0.2
+traceroute to 29.105.0.2 (29.105.0.2), 30 hops max, 46 byte packets
+ 1  newy.group29 (29.105.0.2)  0.596 ms  1.445 ms  1.094 ms
+LOND_router# ^C
+LOND_router#
+
+
+
+|       ./goto.sh haml host                            |
+|       ./goto.sh univ west-1                          |
+|       ./goto.sh univ east-router                     |
+|                                                      |
+|              For any issues please contact:          |
+|             marinho.barcellos@waikato.ac.nz          |
+|                                                      |
+|                                                      |
++------------------------------------------------------+
+root@g29-proxy ~> ./goto.sh NEWY host
+NEWY_host:~# iperf3 -c 29.101.0.1
+Connecting to host 29.101.0.1, port 5201
+[  5] local 29.105.0.1 port 35886 connected to 29.101.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  4.88 MBytes  40.8 Mbits/sec  111   1.14 MBytes
+[  5]   1.00-2.00   sec  1.38 MBytes  11.5 Mbits/sec  294    909 KBytes
+[  5]   2.00-3.00   sec  1.38 MBytes  11.5 Mbits/sec   32    936 KBytes
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec   39    724 KBytes
+[  5]   4.00-5.00   sec  1.88 MBytes  15.7 Mbits/sec    0    747 KBytes
+[  5]   5.00-6.00   sec  1.38 MBytes  11.5 Mbits/sec    0    792 KBytes
+[  5]   6.00-7.00   sec  1.38 MBytes  11.5 Mbits/sec    0    830 KBytes
+[  5]   7.00-8.00   sec  1.38 MBytes  11.5 Mbits/sec    0    856 KBytes
+[  5]   8.00-9.00   sec  1.38 MBytes  11.5 Mbits/sec    0    870 KBytes
+

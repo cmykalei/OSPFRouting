@@ -1,0 +1,25 @@
+Measuring route from PARI(3) <-> ATLA(7)
+PARI_router# show ip route 29.107.0.2
+Routing entry for 29.107.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:19:13 ago
+  * 29.0.5.2, via port_NEWY, weight 1
+  * 29.0.6.2, via port_ZURI, weight 1
+
+PARI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

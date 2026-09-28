@@ -1,0 +1,25 @@
+Measuring traceroute for BOST(6) <-> LOND(1)
+BOST_router# traceroute 29.101.0.2
+traceroute to 29.101.0.2 (29.101.0.2), 30 hops max, 46 byte packets
+ 1  lond.group29 (29.101.0.2)  20.359 ms  21.487 ms  20.142 ms
+BOST_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

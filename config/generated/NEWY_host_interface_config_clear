@@ -1,0 +1,2 @@
+ip addr del 29.105.0.1/24 dev NEWYrouter
+ip route del default via 29.105.0.2

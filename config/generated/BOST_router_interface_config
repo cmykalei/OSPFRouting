@@ -1,0 +1,6 @@
+configure terminal
+interface lo
+ip address 29.156.0.1/32
+exit
+interface host
+ip address 29.106.0.2/24

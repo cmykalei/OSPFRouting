@@ -1,0 +1,25 @@
+Measuring route from TRGA(4) <-> BOST(6)
+TRGA_router# show ip route 29.106.0.2
+Routing entry for 29.106.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:19:28 ago
+  * 29.0.3.1, via port_PARI, weight 1
+  * 29.0.9.1, via port_ZURI, weight 1
+
+TRGA_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

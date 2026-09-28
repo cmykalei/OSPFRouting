@@ -1,0 +1,25 @@
+Measuring latency for LOND(1) <-> NEWY(5)
+LOND_router# ping 29.105.0.2
+PING 29.105.0.2 (29.105.0.2) 56(84) bytes of data.
+64 bytes from 29.105.0.2: icmp_seq=1 ttl=64 time=0.301 ms
+64 bytes from 29.105.0.2: icmp_seq=2 ttl=64 time=0.279 ms
+64 bytes from 29.105.0.2: icmp_seq=3 ttl=64 time=0.279 ms
+64 bytes from 29.105.0.2: icmp_seq=4 ttl=64 time=0.272 ms
+64 bytes from 29.105.0.2: icmp_seq=5 ttl=64 time=0.288 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

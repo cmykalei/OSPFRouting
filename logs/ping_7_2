@@ -1,0 +1,25 @@
+Measuring latency for ATLA(7) <-> HAML(2)
+ATLA_router# ping 29.102.0.2
+PING 29.102.0.2 (29.102.0.2) 56(84) bytes of data.
+64 bytes from 29.102.0.2: icmp_seq=1 ttl=62 time=0.708 ms
+64 bytes from 29.102.0.2: icmp_seq=2 ttl=62 time=0.692 ms
+64 bytes from 29.102.0.2: icmp_seq=3 ttl=62 time=0.668 ms
+64 bytes from 29.102.0.2: icmp_seq=4 ttl=62 time=0.654 ms
+64 bytes from 29.102.0.2: icmp_seq=5 ttl=62 time=0.769 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

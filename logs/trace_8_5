@@ -1,0 +1,25 @@
+Measuring traceroute for ZURI(8) <-> NEWY(5)
+ZURI_router# traceroute 29.105.0.2
+traceroute to 29.105.0.2 (29.105.0.2), 30 hops max, 46 byte packets
+ 1  newy.group29 (29.105.0.2)  0.032 ms  0.147 ms  0.052 ms
+ZURI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+Measuring traceroute for ZURI(8) <-> TRGA(4)
+ZURI_router# traceroute 29.104.0.2
+traceroute to 29.104.0.2 (29.104.0.2), 30 hops max, 46 byte packets
+ 1  trga.group29 (29.104.0.2)  1.081 ms  0.288 ms  0.250 ms
+ZURI_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

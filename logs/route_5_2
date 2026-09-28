@@ -1,0 +1,25 @@
+Measuring route from NEWY(5) <-> HAML(2)
+NEWY_router# show ip route 29.102.0.2
+Routing entry for 29.102.0.0/24
+  Known via "ospf", distance 110, metric 20, best
+  Last update 15:20:00 ago
+  * 29.0.5.1, via port_PARI, weight 1
+  * 29.0.8.1, via port_LOND, weight 1
+
+NEWY_router#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
